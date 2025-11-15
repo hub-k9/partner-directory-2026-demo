@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: yellow;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #00418e;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.logoImg {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  height: auto;
+}
+
+.smalllogoImg {
+  display: block;
+  margin: 0 auto;
+  max-width: 25px;
+  height: auto;
+}
+
+a.smalllogoLink {
+  display: inline-block;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.table-scroll-container {
+  max-height: 350px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+}
+
+#csv-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#csv-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #f9f9f9;
+  z-index: 1;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+#csv-table td {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+/* スマホ用（画面幅980px以下） */
+@media (max-width: 980px) {
+  .table-scroll-container {
+    max-height: 1200px;
+  }
+}
