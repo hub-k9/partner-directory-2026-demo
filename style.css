@@ -64,10 +64,11 @@ a.smalllogoLink {
 }
 
 .table-scroll-container {
-  max-height: 350px;
-  overflow-y: auto;
-  border: 1px solid #ccc;
+  max-height: none;
+  overflow-y: visible;
+  border: none;
 }
+
 
 #csv-table {
   border-collapse: collapse;
@@ -91,6 +92,6 @@ a.smalllogoLink {
 /* スマホ用（画面幅980px以下） */
 @media (max-width: 980px) {
   .table-scroll-container {
-    max-height: 1200px;
+    max-height: none;
   }
 }
